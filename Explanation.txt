@@ -1,0 +1,15 @@
+What is Data Binding in Angular?
+Data binding means connecting the data in your TypeScript (logic) with what shows up in the HTML (the user interface).
+
+There are four types:
+
+Interpolation: Shows the value from the component on the screen.
+
+Property Binding: Changes element properties like whether a button is disabled or not.
+
+Event Binding: Reacts to things users do, like clicks.
+
+Two-Way Binding: Keeps the data in sync both ways — when the user types something, it updates the logic, and if the logic changes, it updates the input too.
+
+Standalone Component (Optional Explanation)
+Instead of using an extra module file (like app.module.ts), you're using a newer Angular method where each component can manage its own setup. It's cleaner for small projects or learning purposes.
